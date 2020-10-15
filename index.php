@@ -26,14 +26,11 @@ $tmpPaht = "tmpPaht/";
 	 			while ($pachImgs = mysqli_fetch_assoc($pachImg)) {
 	 				echo "<a href = '".$pachImgs['paht_img_big']."'><img src='".$pachImgs['paht_img_small']."'></a>";
 	 	} 
- 
-	 	?>
-	
-<?php
+
 	}else{
 		echo "что-то пошло не так!";
 	}
+?>
 
 
- ?>
  
